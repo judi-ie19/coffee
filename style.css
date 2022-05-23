@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/ROCK.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-box{
+ width: 390px;
+ height: 420px;
+ background: #000;
+ color: #fff;
+ top: 50%;
+ left:45%;
+ right: 20%;
+ position:absolute; 
+ transform:-translate(-50%,-50%) ;
+ box-sizing: border-box;
+ margin-top: -15%;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+img{
+    margin-left: 35%;
+    margin-top: -15%;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+.login-box input[type='text'],input[type='password']{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+ }
+.login-box input[type="submit"]{
+    border: none;
+    outline:none;
+    height: 30px;
+    background-color:#fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px; 
+    
+
+}
+
+
+
+
+.loginform input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginform a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginform a:hover
+{
+    color: #ffc107;
+}
+.login-box input [type='submit']:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.login-box a:hover{
+   color:#ffc107;
+
+}
+.coffee img{
+  margin-left: 18%;
+  margin-top: 7%;
+   
+}
+
+
+
+
+
+
